@@ -33,10 +33,12 @@
 
 # Security 
 
+Prevent common security issues with npm packages.
+
 1. Prevent NoSQL injections
 
     ```
-    npm I express-mongo-sanitize
+    npm i express-mongo-sanitize
     ```
 
 2. Security Headers
