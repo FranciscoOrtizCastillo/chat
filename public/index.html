@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+   <head>
+      <title>Socket.IO chat</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   </head>
+   <body>
+        <div class="container-md" id="messages">
+        </div>
+        <div style="height: 100px;"></div>
+        <form action="">
+            <div class="fixed-bottom row g-3 align-items-center justify-content-center bg-dark">
+                <div class="col-auto">  
+                    <input class="mb-3 "  id="username" autocomplete="off"placeholder="username"/>
+                </div>
+                <div class="col-md-4">  
+                    <input class="mb-3 w-100" id="m" autocomplete="off" placeholder="equation"/>
+                </div>
+                <div class="col-auto">  
+                    <button class="mb-3 btn btn-primary">Send</button>
+                </div>
+            </div>
+        </form>
+
+      <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+      <script src="index.js"></script>
+   </body>
+</html>
